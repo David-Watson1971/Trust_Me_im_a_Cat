@@ -4,6 +4,7 @@ import plotly.express as px
 import dash_bootstrap_components as dbc
 
 app = Dash(__name__, pages_folder='pages', use_pages=True, external_stylesheets=[dbc.themes.CYBORG])
+server = app.server
 
 app.layout = html.Div([
 	html.Br(),
