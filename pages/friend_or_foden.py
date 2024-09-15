@@ -21,7 +21,7 @@ histfig = px.histogram(df2,
                        x='Gameweek',
                        y='Points',
                        color='Player Position',
-                       title='Weekly Points per Position',
+                       title='Friend or Foden: Weekly Points per Position',
                        template='plotly_dark'
                        )
 
@@ -30,7 +30,7 @@ piefig = px.pie(df2,
                 values='Points',
                 color='Player Position',
                 hole=.5,
-                title='Breakdown of Total Points per Position',
+                title='Friend or Foden: Breakdown of Total Points per Position',
                 template='plotly_dark')
 
 
